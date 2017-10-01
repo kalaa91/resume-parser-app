@@ -1,0 +1,135 @@
+{
+"mainInfo":{
+"name":{
+"first":"Kareem",
+"middle":"Alaa Eldin",
+"last":"Sayed",
+"image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkmAAAAJGI4MjFlOGU1LTIwOTYtNDcyMi1iN2ZkLTIyZTM1YjRiODA2OA.jpg"
+},
+"address":{
+"city":"El-Shorouk",
+"gov":"Cairo",
+"country":"Egypt"
+},
+"mobile":"+201002629450",
+"email":"kareem.alaaeldin@outlook.com"
+},
+"summary":"More than 4 years experience in designing and developing software applications and websites ",
+"basicSkills":{
+"languages":{
+"proficient":["C#","CSS","JavaScript"],
+"familiar":["Ruby","Python "],
+"webFrameworks":["ASP.Net Web Forms","ASP.Net MVC","Web APIs","NodeJS "],
+"mobileFrameworks":["Xamarin","Ionic"]
+},
+"software":{
+"database":["MSSQL Server","Postgres","MySql"],
+"platforms":["Windows","Fedora(Linux)"]
+}
+},
+"experince":[{
+"title":"Senior Software Developer",
+"companyName":"CrossWorkers",
+"companyLink":"http://www.crossworkers.dk/en/",
+"from":"June 2016",
+"to":"Current",
+"details":["Responsible of developing Web API’s to consume legacy business model and reuse existing code.","Responsible of creating Front-End portal for managing reports and administration tasks for mobile apps","Develop Cross mobile application using Xamarin Forms and I’m responsible for the design and consuming the business API’s.",
+"Develop Cross mobile application using Ionic 2 and I’m responsible for the creating the UI and the backend too, also I’m handling the publishing on both platforms IOS and Android.",
+"Preform Unit Tests for the created API and the Mobile Application "],
+"tools":[" ASP.Net Web Api","Xamarin Forms","Ionic 2","Angular","MSSQLServer","NHibernate"]
+},
+{
+"title":"Software Developer",
+"companyName":"GET Group",
+"companyLink":"http://www.getgroup.com/",
+"from":"December 2014",
+"to":"June 2016",
+"details":["Developed a modular web solution for Time Attendance, access control and Notifications System."],
+"tools":["ASP.Net Web forms", "Asp.Net API", "WCF", "Telerik Data Access and Telerik UI Controls"]
+},
+{
+"title":"Software Developer",
+"companyName":"Zoser AG",
+"companyLink":"http://www.zoser.com/",
+"from":"March 2014",
+"to":"November 2014",
+"details":["Im responsible for developing a Telesales System so the Sales department can promote their products and make successful deals with the customers."],
+"tools":["Windows Forms", "Postgres"]
+},
+{
+"title":"Part Time Software Developer",
+"companyName":"DashSoft",
+"companyLink":"https://www.linkedin.com/company/1083425/",
+"from":"",
+"to":"",
+"details":["Developed a series of windows store apps for the windows store "],
+"tools":["WinRt", "CSS3", "HTML5", "XAML"]
+},
+{
+"title":"Part Time Software Developer",
+"companyName":"sirtts",
+"companyLink":"http://www.sirtts.com/",
+"from":"",
+"to":"",
+"details":["I was responsible on maintaining and developing a web portal for the Canadian Hospitals network that connects ambulances with hospitals for faster care of patient and incidents reports."],
+"tools":["ASP.Net web forms", "JavaScript", "MSSQL Server", "Crystal reports"]
+},
+{
+"title":"Part Time Software Developer",
+"companyName":"Media Trends",
+"companyLink":"http://mediatrends.sa/",
+"from":"",
+"to":"",
+"details":["Im responsible for developing web API’s, web applications and database design and implementation. i can provide work sample upon request "],
+"tools":[ "ASP.Net Web forms", "ASP.Net MVC", "Web API", "SQL Server", "Entity Framework" ]
+},
+{
+"title":"Part Time Software Developer",
+"companyName":"Sismatix",
+"companyLink":"http://sismatix.com/",
+"from":"",
+"to":"",
+"details":["Namazeg: web site for document tracking and forms automation to facilitate governmental procedures","SISMatix Real State: web site for managing real state rental process and fees calculation and owners contributions.","Clinic Cloud: web app for managing clinic reservation and managing doctor schedule and patient registration"],
+"tools":[ "Angular", "ASP.Net MVC", "Web API", "SQL Server", "Entity Framework"]
+},
+{
+"title":"Software Developer Intern",
+"companyName":"itg-Egypt",
+"companyLink":"http://www.itg-egypt.com//",
+"from":"",
+"to":"",
+"details":["I Learned about Teamwork, commitment to a task and Deadlines"," I also trained on SQL, application development life cycle and OOP techniques"],
+"tools":[ "MSSQL Server", "SDLC", "OOP"]
+}],
+"education":{
+"uniName":"El-Shorouk Academy",
+"from":"2008",
+"to":"2012",
+"faculty":"Faculty of Computer Science",
+"bachelor":"Bachelor of Science in Computer and Information Technology ",
+"grade":"Very Good",
+"graduactionProject":"Excellent"
+},
+"extraActivities":[{
+"name":"Microsoft Student Partner Program",
+"details":["I took three days training on Presentation Skills, Personal Branding and Basic Marketing Techniques","I took training about developing Windows Phone 8 and Windows 8 Applications using C# and HTML5","I participated in Tec-hope campaign and I gave many sessions about safe internet usage in many schools for children’s.","I have access to Microsoft Learning and training Library which give me the choice of choosing courses to study from their official store."]
+},
+{
+"name":"TEDx",
+"details":["I was Part of the Logistics Team Who helped Organizing TEDxAUC Which is Held in American University in Cairo."]
+}],
+"contactInfo":[
+{
+"name":"LinkedIn",
+"address":"www.linkedin.com/in/kaladin"
+},
+{
+"name":"Facebook",
+"address":"https://www.facebook.com/Kareem.AlaaElden"
+},
+{
+"name":"github",
+"address":"https://github.com/kalaa91"
+}
+]
+}
