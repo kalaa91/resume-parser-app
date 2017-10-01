@@ -9,7 +9,7 @@ import 'rxjs/Rx';
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ExtraActivitiesComponent {
-    @Input() extraActivity: ExtraActivity;
+    @Input() extraActivity: ExtraActivity[];
     constructor() {
     }
 }

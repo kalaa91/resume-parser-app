@@ -9,7 +9,7 @@ import 'rxjs/Rx';
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ExperienceComponent {
-    @Input() experience: Experince;
+    @Input() experience: Experince[];
     constructor() {
     }
 }

@@ -1,0 +1,19 @@
+<div style="text-align:center">
+    <h3>Experience</h3>
+</div>
+
+<div *ngIf="experience" class="lists">
+    <div *ngFor="let exp of experience">
+        <div><b>Title :</b> {{exp.title}}</div>
+        <div><b>Company Name :</b> {{exp.companyName}}</div>
+        <div *ngIf="exp.companyLink"><b>Company Link :</b> {{exp.companyLink}}</div>
+        <div *ngIf="exp.from"><b>From :</b> {{exp.from}}</div>
+        <div *ngIf="exp.to"><b>To :</b> {{exp.to}}</div>
+        <b *ngIf="exp.details">Details :</b>
+        <li *ngFor="let detailTxt of exp.details">
+                {{detailTxt}}
+            </li>
+        <div *ngIf="exp.tools"><b>Tools :</b> {{exp?.tools.join(', ')}}</div>
+        <br>
+    </div>
+</div>

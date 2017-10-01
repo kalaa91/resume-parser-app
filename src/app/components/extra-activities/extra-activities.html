@@ -1,0 +1,11 @@
+<div style="text-align:center">
+    <h3>Extra Activities</h3>
+</div>
+<div *ngIf="extraActivity" class="lists">
+    <div *ngFor="let activity of extraActivity">
+        {{ activity.name }} :
+        <li *ngFor="let detail of activity.details">
+            {{detail}}
+        </li>
+    </div>
+</div>

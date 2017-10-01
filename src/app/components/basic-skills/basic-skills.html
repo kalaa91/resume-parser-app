@@ -2,7 +2,7 @@
     <h3>Basic Skills</h3>
 </div>
 <div style="text-align:left">
-    <div ng-if="basicSkills?.languages" class="lists">
+    <div *ngIf="basicSkills?.languages" class="lists">
         <h4>Languages :</h4>
         <div><b>Proficient :</b> {{basicSkills?.languages.proficient.join(', ')}}</div>
         <div><b>Familiar :</b> {{basicSkills?.languages.familiar.join(', ')}}</div>
@@ -10,7 +10,7 @@
         <div><b>Mobile Frameworks :</b> {{basicSkills?.languages.mobileFrameworks.join(', ')}}</div>
     </div>
     <br>
-    <div ng-if="basicSkills?.software" class="lists">
+    <div *ngIf="basicSkills?.software" class="lists">
         <h4>Software :</h4>
         <div><b>Databases :</b> {{basicSkills?.software.database.join(', ')}}</div>
         <div><b>Platforms :</b> {{basicSkills?.software.platforms.join(', ')}}</div>

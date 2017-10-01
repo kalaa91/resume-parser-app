@@ -11,7 +11,7 @@ import 'rxjs/Rx';
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ContactInfoComponent {
-    @Input() contactInfo: ContactInfo;
+    @Input() contactInfo: ContactInfo[];
     constructor() {
     }
 }

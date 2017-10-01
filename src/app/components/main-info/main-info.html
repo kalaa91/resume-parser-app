@@ -1,0 +1,21 @@
+<div style="text-align:center">
+    <h3>Main Info</h3>
+</div>
+<div style="text-align:left">
+    <div *ngIf="mainInfo?.name" class="lists">
+        <div><b>Name :</b> {{mainInfo?.name.first}} {{mainInfo?.name.middle}} {{mainInfo?.name.last}}</div>
+        <div><b>Image :</b> {{mainInfo?.name.image}}</div>
+    </div>
+    <div *ngIf="mainInfo?.address" class="lists">
+        <h4>Address :</h4>
+        <div><b>City :</b> {{mainInfo?.address.city}}</div>
+        <div><b>Government :</b> {{mainInfo?.address.gov}}</div>
+        <div><b>Country :</b> {{mainInfo?.address.country}}</div>
+    </div>
+    <div *ngIf="mainInfo?.mobile" class="lists">
+        <div><b>Mobil :</b> {{mainInfo?.mobile}}</div>
+    </div>
+    <div *ngIf="mainInfo?.email" class="lists">
+        <div><b>Email :</b> {{mainInfo?.email}}</div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<div style="text-align:center">
+    <h3>Contact Information</h3>
+</div>
+<div style="text-align:left">
+    <div *ngIf="contactInfo" class="lists">
+        <li *ngFor="let info of contactInfo">
+            {{ info.name }} : {{info.address}}
+        </li>
+    </div>
+</div>

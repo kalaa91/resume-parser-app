@@ -1,9 +1,8 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:left">
   <main-info [mainInfo]="(resumeObject$ | async)?.mainInfo"></main-info>
   <summary [summary]="(resumeObject$ | async)?.summary"></summary>
   <basic-skills [basicSkills]="(resumeObject$ | async)?.basicSkills"></basic-skills>
-  <experience [experience]="(resumeObject$ | async)?.experience"></experience>
+  <experience [experience]="(resumeObject$ | async)?.experince"></experience>
   <education [education]="(resumeObject$ | async)?.education"></education>
   <extra-activities [extraActivity]="(resumeObject$ | async)?.extraActivities"></extra-activities>
   <contact-info [contactInfo]="(resumeObject$ | async)?.contactInfo"></contact-info>
