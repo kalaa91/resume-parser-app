@@ -3,6 +3,7 @@ import { ResumeObject } from './template/resumeObj'
 import { JsonParserService } from './jsonparser.service'
 import { Observable } from 'rxjs'
 import 'rxjs/Rx';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,12 +12,9 @@ import 'rxjs/Rx';
 })
 export class AppComponent {
   title = 'app';
-  resumeObject: ResumeObject;
+  resumeObject$: Observable<ResumeObject>;
   constructor(private jsonParserService: JsonParserService) {
-    jsonParserService.getJsonObject().take(1).subscribe(data => {
-      this.resumeObject = data;
-      console.log(data);
-    });
+    this.resumeObject$ = jsonParserService.getJsonObject();
   }
 
 }

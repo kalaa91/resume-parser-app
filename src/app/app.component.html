@@ -1,10 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <main-info></main-info>
-  <summary></summary>
-  <basic-skills></basic-skills>
-  <experience></experience>
-  <education></education>
-  <extra-activities></extra-activities>
-  <contact-info></contact-info>
+<div style="text-align:left">
+  <main-info [mainInfo]="(resumeObject$ | async)?.mainInfo"></main-info>
+  <summary [summary]="(resumeObject$ | async)?.summary"></summary>
+  <basic-skills [basicSkills]="(resumeObject$ | async)?.basicSkills"></basic-skills>
+  <experience [experience]="(resumeObject$ | async)?.experience"></experience>
+  <education [education]="(resumeObject$ | async)?.education"></education>
+  <extra-activities [extraActivity]="(resumeObject$ | async)?.extraActivities"></extra-activities>
+  <contact-info [contactInfo]="(resumeObject$ | async)?.contactInfo"></contact-info>
 </div>
