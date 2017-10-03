@@ -15,3 +15,7 @@ Run `npm install` then `ng serve` for a dev server. Navigate to `http://localhos
 ## Build
 
 Run `ng build` to build the project.
+
+
+## Resume Published to
+`https://ng-json-resume-parser.herokuapp.com/`
