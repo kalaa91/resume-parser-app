@@ -1,9 +1,52 @@
-<div style="text-align:left">
-  <main-info [mainInfo]="(resumeObject$ | async)?.mainInfo"></main-info>
-  <summary [summary]="(resumeObject$ | async)?.summary"></summary>
-  <basic-skills [basicSkills]="(resumeObject$ | async)?.basicSkills"></basic-skills>
-  <experience [experience]="(resumeObject$ | async)?.experince"></experience>
-  <education [education]="(resumeObject$ | async)?.education"></education>
-  <extra-activities [extraActivity]="(resumeObject$ | async)?.extraActivities"></extra-activities>
-  <contact-info [contactInfo]="(resumeObject$ | async)?.contactInfo"></contact-info>
+
+<div id="doc2" class="yui-t7">
+  <div id="inner">
+    <main-info [mainInfo]="(resumeObject$ | async)?.mainInfo"></main-info>
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-gf">
+            <div class="yui-u first">
+              <h2>Profile</h2>
+            </div>
+            <div class="yui-u">
+              <p class="enlarge">
+                <summary [summary]="(resumeObject$ | async)?.summary"></summary>
+              </p>
+            </div>
+          </div>
+          <!--// .yui-gf -->
+          <div class="yui-gf">
+            <basic-skills [basicSkills]="(resumeObject$ | async)?.basicSkills"></basic-skills>
+          </div>
+          <div class="yui-gf">
+            <experience [experience]="(resumeObject$ | async)?.experince"></experience>
+          </div>
+          <!--// .yui-gf -->
+          <div class="yui-gf">
+            <education [education]="(resumeObject$ | async)?.education"></education>
+          </div>
+          <!--// .yui-gf -->
+          <div class="yui-gf">
+            <extra-activities [extraActivity]="(resumeObject$ | async)?.extraActivities"></extra-activities>
+          </div>
+          <!--// .yui-gf -->
+          <div class="yui-gf last">
+            <contact-info [contactInfo]="(resumeObject$ | async)?.contactInfo"></contact-info>
+          </div>
+          <!--// .yui-gf -->
+        </div>
+        <!--// .yui-b -->
+      </div>
+      <!--// yui-main -->
+    </div>
+    <!--// bd -->
+
+
+
+  </div>
+  <!-- // inner -->
+
+
 </div>
+<!--// doc -->

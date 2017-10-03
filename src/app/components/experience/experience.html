@@ -1,19 +1,19 @@
-<div style="text-align:center">
-    <h3>Experience</h3>
+<div class="yui-u first">
+    <h2>Experience</h2>
 </div>
-
-<div *ngIf="experience" class="lists">
-    <div *ngFor="let exp of experience">
-        <div><b>Title :</b> {{exp.title}}</div>
-        <div><b>Company Name :</b> {{exp.companyName}}</div>
-        <div *ngIf="exp.companyLink"><b>Company Link :</b> {{exp.companyLink}}</div>
-        <div *ngIf="exp.from"><b>From :</b> {{exp.from}}</div>
-        <div *ngIf="exp.to"><b>To :</b> {{exp.to}}</div>
-        <b *ngIf="exp.details">Details :</b>
-        <li *ngFor="let detailTxt of exp.details">
-                {{detailTxt}}
-            </li>
-        <div *ngIf="exp.tools"><b>Tools :</b> {{exp?.tools.join(', ')}}</div>
+<!--// .yui-u -->
+<div class="yui-u">
+    <div *ngFor="let exp of experience" class="job">
+        <a  [href]="sanitize(exp.companyLink)">
+            <h2>{{exp.companyName}}</h2>
+        </a>
+        
+        <h3>{{exp.title}}</h3>
+        <h4 *ngIf="exp.from">{{exp.from}} - {{exp.to}}</h4>
         <br>
+        <div *ngFor="let detailTxt of exp.details">
+            {{detailTxt}}
+        </div>
     </div>
 </div>
+<!--// .yui-u -->

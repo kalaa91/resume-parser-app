@@ -1,10 +1,11 @@
-<div style="text-align:center">
-    <h3>Contact Information</h3>
+<div class="yui-u first">
+    <h2>Contact Information</h2>
 </div>
-<div style="text-align:left">
-    <div *ngIf="contactInfo" class="lists">
-        <li *ngFor="let info of contactInfo">
-            {{ info.name }} : {{info.address}}
-        </li>
+<div class="yui-u">
+
+    <div *ngFor="let info of contactInfo" class="talent">
+        <a [href]="sanitize(info.address)">
+            <h2>{{info.name}}</h2>
+        </a>
     </div>
 </div>

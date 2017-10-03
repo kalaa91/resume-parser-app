@@ -3,7 +3,7 @@ import { ContactInfo } from '../../template/contactInfo';
 import { Observable } from 'rxjs/Observable';
 import { ResumeObject } from '../../template/resumeObj';
 import 'rxjs/Rx';
-
+import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
     selector: 'contact-info',
@@ -12,6 +12,10 @@ import 'rxjs/Rx';
 })
 export class ContactInfoComponent {
     @Input() contactInfo: ContactInfo[];
-    constructor() {
+    constructor(private sanitizer:DomSanitizer) {
+    }
+
+    sanitize(url:string){
+        return this.sanitizer.bypassSecurityTrustUrl(url);
     }
 }

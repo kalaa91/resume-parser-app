@@ -1,11 +1,15 @@
-<div style="text-align:center">
-    <h3>Extra Activities</h3>
+<div class="yui-u first">
+    <h2>Extra Activities</h2>
 </div>
-<div *ngIf="extraActivity" class="lists">
-    <div *ngFor="let activity of extraActivity">
-        {{ activity.name }} :
-        <li *ngFor="let detail of activity.details">
+<!--// .yui-u -->
+<div class="yui-u">
+    <div *ngFor="let activity of extraActivity" class="job">
+        <h2>{{activity.name}}</h2>
+        <br>
+        <div *ngFor="let detail of activity.details">
             {{detail}}
-        </li>
+        </div>
+
     </div>
 </div>
+<!--// .yui-u -->

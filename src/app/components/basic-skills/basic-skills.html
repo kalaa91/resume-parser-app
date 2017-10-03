@@ -1,18 +1,21 @@
-<div style="text-align:center">
-    <h3>Basic Skills</h3>
+<div class="yui-u first">
+    <h2>Skills</h2>
 </div>
-<div style="text-align:left">
-    <div *ngIf="basicSkills?.languages" class="lists">
-        <h4>Languages :</h4>
-        <div><b>Proficient :</b> {{basicSkills?.languages.proficient.join(', ')}}</div>
-        <div><b>Familiar :</b> {{basicSkills?.languages.familiar.join(', ')}}</div>
-        <div><b>Web Frameworks :</b> {{basicSkills?.languages.webFrameworks.join(', ')}}</div>
-        <div><b>Mobile Frameworks :</b> {{basicSkills?.languages.mobileFrameworks.join(', ')}}</div>
+<div class="yui-u">
+
+    <div class="talent">
+        <h2>Programming Languages</h2>
+        <p>{{basicSkills?.languages.proficient.join(', ')}} , {{basicSkills?.languages.familiar.join(', ')}}</p>
     </div>
-    <br>
-    <div *ngIf="basicSkills?.software" class="lists">
-        <h4>Software :</h4>
-        <div><b>Databases :</b> {{basicSkills?.software.database.join(', ')}}</div>
-        <div><b>Platforms :</b> {{basicSkills?.software.platforms.join(', ')}}</div>
+
+    <div class="talent">
+        <h2>Web & Mobile Frameworks</h2>
+        <p>{{basicSkills?.languages.webFrameworks.join(', ')}} , {{basicSkills?.languages.mobileFrameworks.join(', ')}}</p>
     </div>
+
+    <div class="talent">
+        <h2>Databases And Operating Systems</h2>
+        <p>{{basicSkills?.software.database.join(', ')}} , {{basicSkills?.software.platforms.join(', ')}}</p>
+    </div>
+
 </div>
