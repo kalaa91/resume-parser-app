@@ -3,36 +3,45 @@
 "name":{
 "first":"Kareem",
 "middle":"Alaa Eldin",
-"last":"Sayed",
+"last":"Ibrahim",
 "image":"https://github.com/kalaa91/resume-parser-app/raw/master/img.jpg"
 },
 "address":{
-"city":"El-Shorouk",
-"gov":"Cairo",
-"country":"Egypt"
+"city":"Berlin",
+"gov":"Berlin",
+"country":"Germany"
 },
-"mobile":"+201002629450",
+"mobile":"+4915901970756",
 "email":"kareem.alaaeldin@outlook.com"
 },
-"summary":"More than 4 years experience in designing and developing software applications and websites ",
+"summary":"More than 6 years experience in designing and developing software applications and websites ",
 "basicSkills":{
 "languages":{
-"proficient":["C#","CSS","JavaScript"],
+"proficient":["Typescript","JavaScript","C#","CSS"],
 "familiar":["Ruby","Python "],
-"webFrameworks":["ASP.Net Web Forms","ASP.Net MVC","Web APIs","NodeJS "],
-"mobileFrameworks":["Xamarin","Ionic"]
+"webFrameworks":["Angular","NodeJS","ASP.Net MVC","ASP.Net Web APIs",".NET Core"],
+"mobileFrameworks":["Xamarin","Ionic","NativeScript"]
 },
 "software":{
 "database":["MSSQL Server","Postgres","MySql"],
-"platforms":["Windows","Fedora(Linux)"]
+"platforms":["Windows","Fedora(Linux)","Mac"]
 }
 },
 "experince":[{
+"title":"Software Developer",
+"companyName":"LanaLabs",
+"companyLink":"https://lanalabs.com",
+"from":"Feb 2018",
+"to":"Current",
+"details":["Responsible for maintaining and developoing frontend applications and migrating an application from AngularJS to Angular 5","Implementing new features and designing application architicture","maintain a npm library that is acting as a communication layer to API's and generate web componenets"
+           ,"manage caching and run time frontend configrations"],
+"tools":["Angular 5","AngularJS","Typescript","Redux","Ngrx","D3js","Highcharts","Stenciljs"]
+},{
 "title":"Senior Software Developer",
 "companyName":"CrossWorkers",
 "companyLink":"http://www.crossworkers.dk/en/",
 "from":"June 2016",
-"to":"Current",
+"to":"Jan 2018",
 "details":["Responsible of developing Web API’s to consume legacy business model and reuse existing code.","Responsible of creating Front-End portal for managing reports and administration tasks for mobile apps","Develop Cross mobile application using Xamarin Forms and I’m responsible for the design and consuming the business API’s.",
 "Develop Cross mobile application using Ionic 2 and I’m responsible for the creating the UI and the backend too, also I’m handling the publishing on both platforms IOS and Android.",
 "Preform Unit Tests for the created API and the Mobile Application "],
